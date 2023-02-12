@@ -6,7 +6,7 @@
 .site-header {
     width: 100%;
     height: 100vh;
-    background: #33b5e5;
+    background: #1dbe40;
     background: linear-gradient(57deg, #34d8eb ); 
     clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%);
 
@@ -54,11 +54,16 @@ nav{
 
 section{ display: flex;  }
 
-.leftside { width: 60%; height: auto; overflow: hidden; margin-top: 20px;}
+.leftside { width: 60%; height: 130%; overflow: hidden; margin-top: 20px;}
 
-.leftside img{ padding-left: 50px; width: 800px;  height: 400px; }
+.leftside img{ padding-left: 50px; width: 750px;  height: 400px; }
 
-.rightside{ width:40%; height: 300px; color: white; text-align: center; margin-top: 80px; padding: 40px;}
+.rightside{ width:auto;
+    height: 300% ;
+     color: white; 
+     text-align: center; 
+     margin-top: 0px; 
+     padding: 34px;}
 
 .rightside h1{ text-align: center;
     color: #ffffff;
@@ -73,7 +78,8 @@ section{ display: flex;  }
     font-weight: 600;
     color: black;
     text-transform: uppercase;
-    background: linear-gradient(57deg,#34d8eb , #b1ebf2); 
+     background: linear-gradient(57deg,#EC5872 , #f6f7f7); 
+    /* background-color: rgb(236, 88, 114); */
     border-radius: 25px;
     padding: 20px 35px ; 
 
@@ -82,5 +88,5 @@ section{ display: flex;  }
 
 
 .rightside button:hover{
-      background: linear-gradient(57deg,#8cc2ed,#46a5f2, );   
+      background: linear-gradient(57deg,#0bf76d,#05e32e, );   
 }
